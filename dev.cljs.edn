@@ -1,0 +1,7 @@
+^{:watch-dirs   ["test" "src"]
+  :css-dirs     ["resources/public/css"]
+  :auto-testing false}
+{:main          npm-deps.app
+ :npm-deps      {:ol "5.2.0"}
+ :install-deps  true
+ :infer-externs true}
